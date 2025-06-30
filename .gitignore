@@ -1,0 +1,42 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore model and weight files
+*.h5
+*.keras
+*.ckpt
+
+# Ignore dataset archives
+*.zip
+*.tar.gz
+*.tar
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore logs
+*.log
+
+# Ignore other unnecessary files
+*.swp
+*.bak
+
+# Ignore dataset folders
+FER2013/
+Facial_Images/
+Webcam Integration/dataset.zip
+Webcam Integration/images/
